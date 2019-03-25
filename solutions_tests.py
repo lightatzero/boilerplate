@@ -2,6 +2,7 @@
 
 import unittest
 import solutions
+import doctest
 
 
 class SolutionsTests(unittest.TestCase):
@@ -21,4 +22,5 @@ class SolutionsTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    doctest.testfile('README.md')
     unittest.main()
